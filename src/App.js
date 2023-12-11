@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './static/logo.svg';
+import './styles/App.css';
+import { Stack } from '@chakra-ui/react'
+import { Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home'
+import ProblemSolving from './components/ProblemSolving';
+import ReadAndWatch from './components/ReadAndWatch';
+import ErrorPage from './static/ErrorPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/problem-solving" element={<ProblemSolving />} />
+          <Route path="/text-reading" element={<ReadAndWatch />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
