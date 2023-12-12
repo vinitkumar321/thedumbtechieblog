@@ -1,0 +1,10 @@
+.Panels {
+    background-color: "teal.300";
+    height: "250px";
+    border-radius: "md";
+    box-shadow: "md";
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    color: "white";
+}
