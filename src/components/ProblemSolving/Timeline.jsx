@@ -8,8 +8,9 @@ export default function Timeline() {
                 backgroundColor={'#73C2FB'}
                 defaultValue={'Timeline'}
             >
-                <p>Timeline</p>
+                <p>Data Structure & Algorithm Problems</p>
             </Stack>
+
         </>
     )
 }

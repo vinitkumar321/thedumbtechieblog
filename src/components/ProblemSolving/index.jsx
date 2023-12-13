@@ -6,7 +6,7 @@ import Header from '../Home/Header'
 export default function ProblemSolving() {
     return (
         <>
-            <Header />
+            <Header head="ProblemSolving" />
             <HStack>
                 <Box flex={2} padding={10}>
                     <Timeline />

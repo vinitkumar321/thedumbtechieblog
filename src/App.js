@@ -7,6 +7,7 @@ import Home from './components/Home'
 import ProblemSolving from './components/ProblemSolving';
 import ReadAndWatch from './components/ReadAndWatch';
 import ErrorPage from './static/ErrorPage';
+import Fitness from './components/Fitness';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/problem-solving" element={<ProblemSolving />} />
             <Route path="/read-and-watch" element={<ReadAndWatch />} />
+            <Route path="/fitness" element={<Fitness />} />
             <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
