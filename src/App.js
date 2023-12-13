@@ -17,7 +17,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/problem-solving" element={<ProblemSolving />} />
-            <Route path="/text-reading" element={<ReadAndWatch />} />
+            <Route path="/read-and-watch" element={<ReadAndWatch />} />
             <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>

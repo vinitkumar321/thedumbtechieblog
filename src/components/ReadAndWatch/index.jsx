@@ -1,5 +1,5 @@
 
-const ReadAndWatch = () => {
+export default function ReadAndWatch() {
     return (
         <>
             <header>
@@ -8,5 +8,3 @@ const ReadAndWatch = () => {
         </>
     )
 }
-
-export default ReadAndWatch;
