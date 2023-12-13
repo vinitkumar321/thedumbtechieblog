@@ -3,7 +3,7 @@ import Timeline from './Timeline'
 import ConsistencyCounter from './ConsistencyCounter'
 import Header from '../Home/Header'
 
-export default function ProblemSolving() {
+export default function EverythingTech() {
     return (
         <>
             <Header head="ProblemSolving" />

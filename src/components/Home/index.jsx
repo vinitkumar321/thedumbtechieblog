@@ -26,7 +26,7 @@ const Home = () => {
                     alignItems="center"
                     justifyContent="center"
                     color="white"
-                    onClick={() => setPath('/problem-solving')}
+                    onClick={() => setPath('/everything-tech')}
                 >
                     Everything Tech
                 </Button>
@@ -40,7 +40,7 @@ const Home = () => {
                     alignItems="center"
                     justifyContent="center"
                     color="white"
-                    onClick={() => setPath('/read-and-watch')}
+                    onClick={() => setPath('/interesting-reads')}
                 >
                     Interesting Reads
                 </Button>
@@ -68,9 +68,23 @@ const Home = () => {
                     alignItems="center"
                     justifyContent="center"
                     color="white"
-                    onClick={() => setPath('/my-writing')}
+                    onClick={() => setPath('/my-writings')}
                 >
                     My Writings
+                </Button>
+                <Button
+                    key="readAndWatch"
+                    bg="teal.300"
+                    height="250px"
+                    borderRadius="md"
+                    shadow="md"
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                    color="white"
+                    onClick={() => setPath('/my-photography')}
+                >
+                    My Photography
                 </Button>
 
             </SimpleGrid>
