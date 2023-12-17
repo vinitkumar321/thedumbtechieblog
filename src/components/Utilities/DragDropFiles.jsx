@@ -14,16 +14,9 @@ const DragDropFiles = () => {
         setFiles(event.dataTransfer.files)
     };
 
-    // send files to the server // learn from my other video
+    // send files to the server
     const handleUpload = () => {
         console.log("Upload Files - ", files)
-
-        // fetch(
-        //   "link", {
-        //     method: "POST",
-        //     body: formData
-        //   }  
-        // )
     };
 
     if (files) return (
