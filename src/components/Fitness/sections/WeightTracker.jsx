@@ -1,5 +1,5 @@
 import { Center } from '@chakra-ui/react'
-import Header from '../Home/Header'
+import Header from '../../Home/Header'
 
 const WeightTracker = () => {
     return (
