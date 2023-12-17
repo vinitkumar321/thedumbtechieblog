@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
 import '../../styles/App.css'
-import UploadFiles from "./UploadFiles";
 
 const DragDropFiles = () => {
     const [files, setFiles] = useState(null);
@@ -18,9 +17,6 @@ const DragDropFiles = () => {
     // send files to the server // learn from my other video
     const handleUpload = () => {
         console.log("Upload Files - ", files)
-        // files.forEach((file) => {
-        //     UploadFiles(file)
-        // })
 
         // fetch(
         //   "link", {
